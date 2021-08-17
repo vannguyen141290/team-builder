@@ -2,7 +2,7 @@ import React from 'react';
 
 
 export default function Member(props) {
-    const member = props;
+    const { member } = props;
     return (
         <div className='member-container'>
             <h4>Name: {member.name}</h4>

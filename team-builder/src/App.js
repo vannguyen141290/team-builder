@@ -46,9 +46,9 @@ function App() {
     <div className="App">
       <Form formValues={formValues} updateForm={updateForm} updateList={updateList} />
       <h3>{err}</h3>
-      {members.map((member, index) => {
+      {members.map((member, idx) => {
         return (
-          <Member key={index} member={member} />
+          <Member key={idx} member={member} />
         )})
       }
     </div>
